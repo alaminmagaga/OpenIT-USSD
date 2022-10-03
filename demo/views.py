@@ -21,22 +21,32 @@ def index(request):
             response += "3. language \n"
             response += "4. about \n"
 
-        elif text == "1":
+        elif text=="1":
             response = "CON Select State \n"
-            response += "1.  Plateau \n"
-            response += "2.  Ekiti  \n"
-            response += "3.  Edo  \n"
-
-        elif text=="1*2":
+            response += "1. Plateau \n"
+            response += "2. Ekiti \n"
+            response += "3. Edo \n"
+           
+            
+         elif text=="1*1":
             response = "CON Select MDA \n"
-            response += "1. Universal Basic Education Commission(UBEC) \n"
-            response += "2. National Primary Health Care Development Agency(NPHCDA) \n"
-            response += "3. Bureau of Public Procurement(BPP) \n"
-            response += "4. Small and Medium Enterprises Development Agency \n"
+            response += "1. Ministry of Works \n"
+            response += "2. Ministry of Health \n"
+            response += "3. Ministry of Water Resources and Energy \n"
+            response += "4. Ministry of Tourism, Culture and Hospitality \n"
+            
+            
+            
+        elif text == "1*1*1":
+            response = "CON Contractor \n"
+            response += "1.  P.W Nig Limited \n"
+            response += "2.  Fundation solid Nigeria \n"
+            response += "3.  Rick Rock Construction Nig. Ltd. \n"
+            response += "3.  EEC. International Co. Ltd \n"
 
-        elif text == "1*1*1":   
-            response = "END thank you for subscribing to our daily football news plan \n"
+       
 
+      
         elif text == "1*1*2":     #one off
             response = "END thank you for your one-off daily football news plan \n"  
   
