@@ -27,7 +27,7 @@ def index(request):
             response += "2.  Ekiti  \n"
             response += "3.  Edo  \n"
 
-        elif text=="2":
+        elif text=="1*2":
             response = "CON Select MDA \n"
             response += "1. Universal Basic Education Commission(UBEC) \n"
             response += "2. National Primary Health Care Development Agency(NPHCDA) \n"
@@ -40,11 +40,7 @@ def index(request):
         elif text == "1*1*2":     #one off
             response = "END thank you for your one-off daily football news plan \n"  
   
-        elif text == "1*2":      #weekly football
-            response = "CON You will be charged N50 for our weekly Sports news plan \n"
-            response += "1. Auto-Renew \n"
-            response += "2. One-off Purchase \n"
-
+     
         elif text == "1*2*1":
             response = "END thank you for subscribing to our weekly football news plan \n"
 
