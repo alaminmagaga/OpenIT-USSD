@@ -58,31 +58,7 @@ def index(request):
         elif text == "1*1*1*: 
             response = "END Dualization of Polo Roundabout-Farin Gada Algadama-Rock Haven Alheri Road Network and Terminus-Bauchi Road at JOS/NORTH, 100 \n"  
        
-
-       
-
-      
-        elif text == "1*1*2":     #one off
-            response = "END thank you for your one-off daily football news plan \n"  
-  
-     
-        elif text == "1*2*1":
-            response = "END thank you for subscribing to our weekly football news plan \n"
-
-        elif text == "1*2*2":
-            response = "END thank you for your one-off weekly football news plan \n"    
     
-        elif text == "1*3":
-            response = "CON You will be charged N25 for our monthly football news plan \n"
-            response += "1. Auto-Renew \n"
-            response += "2. One-off Purchase \n"
-         
-        elif text == "1*3*1":
-            response = "END thank you for subscribing to our monthly football news plan \n"
     
-        elif text == "1*3*2":
-            response = "END thank you for your one-off monthly football news plan \n"
-
-
         return HttpResponse(response)
 
