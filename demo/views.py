@@ -26,16 +26,13 @@ def index(request):
             response += "1. Plateau \n"
             response += "2. Ekiti \n"
             response += "3. Edo \n"
-           
-            
-         elif text=="1*1":
+               
+        elif text=="1*1":
             response = "CON Select MDA \n"
             response += "1. Ministry of Works \n"
             response += "2. Ministry of Health \n"
             response += "3. Ministry of Water Resources and Energy \n"
             response += "4. Ministry of Tourism, Culture and Hospitality \n"
-            
-            
             
         elif text == "1*1*1":
             response = "CON Contractor \n"
