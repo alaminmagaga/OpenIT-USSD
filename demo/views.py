@@ -15,22 +15,24 @@ def index(request):
         response = ""
 
         if text == "":
-            response = "CON CON Welcome to OpenIT service  \n"
+            response = "CON Welcome to OpenIT   \n"
             response += "1. Project \n"
             response += "2. Monitor Projects \n"
-            response += "3. About \n"
-            response += "4. How it Works \n"
+            response += "3. language \n"
+            response += "4. about \n"
 
         elif text == "1":
-            response = "CON Select Your Preferred football Plans \n"
-            response += "1. Daily @ N100 \n"
-            response += "2. Weekly @ N50 \n"
-            response += "3. Monthly @ N25 "
+            response = "CON Select State \n"
+            response += "1.  Plateau \n"
+            response += "2.  Ekiti  \n"
+            response += "3.  Edo  \n"
 
         elif text=="2":
-            response = "CON You will be charged N100 for your Daily Football news \n"
-            response += "1. Auto-Renewal \n"
-            response += "2. One-off Purchase \n"
+            response = "CON Select MDA \n"
+            response += "1. Universal Basic Education Commission(UBEC) \n"
+            response += "2. National Primary Health Care Development Agency(NPHCDA) \n"
+            response += "3. Bureau of Public Procurement(BPP) \n"
+            response += "4. Small and Medium Enterprises Development Agency \n"
 
         elif text == "1*1*1":   
             response = "END thank you for subscribing to our daily football news plan \n"
