@@ -32,13 +32,13 @@ def index(request):
             response += "1. Barkin Ladi \n"
             response += "2. Bassa \n"
             response += "3. Bokkos \n"
-            response += "1. Jos-East \n"
-            response += "2. Jos-North \n"
-            response += "3. Jos-South \n"
-            response += "1. Kanam \n"
-            response += "2. Kanke \n"
-            response += "3. Langtang North \n"
-            response += "1. Langtang South \n"
+            response += "4. Jos-East \n"
+            response += "5. Jos-North \n"
+            response += "6. Jos-South \n"
+            response += "7. Kanam \n"
+            response += "8. Kanke \n"
+            response += "9. Langtang North \n"
+        
           
                
         elif text=="1*1*1":
