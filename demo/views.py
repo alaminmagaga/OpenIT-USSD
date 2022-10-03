@@ -50,10 +50,10 @@ def index(request):
             
         elif text == "1*1*1*1":
             response = "CON Select Contractor \n"
-            response += "2.  Fundation solid Nigeria \n"
-            response += "1.  P.W Nig Limited \n"
+            response += "1.  Fundation solid Nigeria \n"
+            response += "2.  P.W Nig Limited \n"
             response += "3.  Rick Rock Construction Nig. Ltd. \n"
-            response += "3.  EEC. International Co. Ltd \n"
+            response += "4.  EEC. International Co. Ltd \n"
             
         elif text == "1*1*1*1*2": 
             response = "END Dualization of Polo Roundabout-Farin Gada Algadama-Rock Haven Alheri Road Network and Terminus-Bauchi Road at JOS/NORTH, 100 \n"  
