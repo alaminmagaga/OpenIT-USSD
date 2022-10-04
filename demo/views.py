@@ -56,7 +56,7 @@ def index(request):
             response += "4.  EEC. International Co. Ltd \n"
             
         elif text == "1*1*1*1*2": 
-            response = "END Dualization of Polo Roundabout-Farin Gada Algadama-Rock Haven Alheri Road Network and Terminus-Bauchi Road at JOS/NORTH, 100 \n"  
+            response = "END Project: \n Dualization of Polo Roundabout-Farin Gada Algadama-Rock Haven Alheri Road Network and Terminus-Bauchi Road at JOS/NORTH, 100 \n Amount:\n N234959595 \n"  
        
     
     
