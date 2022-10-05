@@ -15,7 +15,7 @@ def index(request):
         response = ""
 
         if text == "":
-            response = "CON Welcome to OpenIT   \n"
+            response = "CON Welcome to OpenC   \n"
             response += "1. Project \n"
             response += "2. Monitor Projects \n"
             response += "3. language \n"
