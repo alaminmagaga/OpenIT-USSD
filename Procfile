@@ -1,1 +1,1 @@
-web: gunicorn africastalking_project.wsgi
+web: gunicorn africastalking_project.wsgi --log-file -
